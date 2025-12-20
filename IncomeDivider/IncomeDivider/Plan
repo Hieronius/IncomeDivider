@@ -1,3 +1,9 @@
 UPDATED 13.12.25
 
-- Make another brainstorm to decide what to do
+- Add button to remove last category
+- Add toggle to choose value in Number or Percent
+- Add animation for calculate button
+- Add checks for correct spelling of numbers and values
+- Add design for the app
+- Fix spacing between category name and value
+- Add a second screen where you can add favorite categories and other categories of spendings like Gym (1700), cell phone (300) and so on to use it in your calculations. So you just add categories from this list and get a final outcome
