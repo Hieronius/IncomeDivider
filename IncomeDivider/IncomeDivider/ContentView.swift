@@ -35,8 +35,15 @@ struct ContentView: View {
 						Text("Total: \(category.total)")
 					}
 				}
+			}
+			
+			// TODO: Should be in different cells
+			HStack {
 				Button("Add Category") {
-					categories.append(Category())
+					addCategory()
+				}
+				Button("Remove Category") {
+					removeCategory()
 				}
 			}
 			
@@ -88,6 +95,14 @@ extension ContentView {
 	
 	func addCategory() {
 		categories.append(Category())
+	}
+	
+	func removeCategory() {
+		
+		guard !categories.isEmpty else { return }
+		
+		let amount = categories.count
+		categories.remove(at: amount-1)
 	}
 }
 
