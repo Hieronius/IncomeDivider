@@ -38,14 +38,12 @@ struct ContentView: View {
 			}
 			
 			// TODO: Should be in different cells
-			HStack {
 				Button("Add Category") {
 					addCategory()
 				}
 				Button("Remove Category") {
 					removeCategory()
 				}
-			}
 			
 			if didCalculateResult {
 				Section(header: Text("Results")) {
@@ -57,7 +55,6 @@ struct ContentView: View {
 		.background(.white)
 
 		Button("Divide") {
-			print("HELLO FUCKER???")
 			divideIncome()
 		}
 		.frame(width: 200, height: 50)
