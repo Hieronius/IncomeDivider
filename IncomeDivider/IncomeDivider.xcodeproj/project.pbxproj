@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DD12B6692EFA425C004B4036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD12B6642EFA425C004B4036 /* Assets.xcassets */; };
+		DD12B66A2EFA425C004B4036 /* Plan in Resources */ = {isa = PBXBuildFile; fileRef = DD12B6672EFA425C004B4036 /* Plan */; };
+		DD12B66B2EFA425C004B4036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12B6652EFA425C004B4036 /* ContentView.swift */; };
+		DD12B66C2EFA425C004B4036 /* IncomeDividerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12B6662EFA425C004B4036 /* IncomeDividerApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		DD12B6642EFA425C004B4036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD12B6652EFA425C004B4036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD12B6662EFA425C004B4036 /* IncomeDividerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeDividerApp.swift; sourceTree = "<group>"; };
+		DD12B6672EFA425C004B4036 /* Plan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Plan; sourceTree = "<group>"; };
 		DD5E51DB2EEDB40400A7394B /* IncomeDivider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IncomeDivider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DD5E51DD2EEDB40400A7394B /* IncomeDivider */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IncomeDivider;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DD5E51D82EEDB40400A7394B /* Frameworks */ = {
@@ -29,10 +32,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD12B6682EFA425C004B4036 /* IncomeDivider */ = {
+			isa = PBXGroup;
+			children = (
+				DD12B6672EFA425C004B4036 /* Plan */,
+				DD12B6662EFA425C004B4036 /* IncomeDividerApp.swift */,
+				DD12B6652EFA425C004B4036 /* ContentView.swift */,
+				DD12B6642EFA425C004B4036 /* Assets.xcassets */,
+			);
+			path = IncomeDivider;
+			sourceTree = "<group>";
+		};
 		DD5E51D22EEDB40400A7394B = {
 			isa = PBXGroup;
 			children = (
-				DD5E51DD2EEDB40400A7394B /* IncomeDivider */,
+				DD12B6682EFA425C004B4036 /* IncomeDivider */,
 				DD5E51DC2EEDB40400A7394B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DD5E51DD2EEDB40400A7394B /* IncomeDivider */,
 			);
 			name = IncomeDivider;
 			packageProductDependencies = (
@@ -109,6 +120,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD12B6692EFA425C004B4036 /* Assets.xcassets in Resources */,
+				DD12B66A2EFA425C004B4036 /* Plan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD12B66B2EFA425C004B4036 /* ContentView.swift in Sources */,
+				DD12B66C2EFA425C004B4036 /* IncomeDividerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

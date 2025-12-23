@@ -2,7 +2,7 @@ import SwiftUI
 
 struct Category: Identifiable {
 	
-	var id = UUID()
+	let id = UUID()
 	var name = ""
 	var value = ""
 	var total = ""
@@ -37,7 +37,6 @@ struct ContentView: View {
 				}
 			}
 			
-			// TODO: Should be in different cells
 				Button("Add Category") {
 					addCategory()
 				}
