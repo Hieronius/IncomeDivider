@@ -3,4 +3,16 @@
  "Add Category" button should choose from existing ones
  */
 
-import Foundation
+import SwiftUI
+
+extension ContentView {
+	
+	@ViewBuilder
+	func buildCategories() -> some View {
+		
+		List {
+			
+			// categories
+		}
+	}
+}
