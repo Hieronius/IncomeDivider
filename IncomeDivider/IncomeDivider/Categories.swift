@@ -12,7 +12,9 @@ extension ContentView {
 		
 		List {
 			
-			// categories
+			Text(Category(name: "Vacation",value: "5", total: ""))
+			Text(Category(name: "Personal",value: "10", total: ""))
+			Text(Category(name: "Emergency",value: "20", total: ""))
 		}
 	}
 }
