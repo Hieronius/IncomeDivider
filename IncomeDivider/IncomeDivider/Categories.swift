@@ -16,5 +16,14 @@ extension ContentView {
 			Text(Category(name: "Personal",value: "10", total: ""))
 			Text(Category(name: "Emergency",value: "20", total: ""))
 		}
+		Button("Add Category") {
+			
+		}
+		Button("Delete Category") {
+			
+		}
+		Button("Done") {
+			
+		}
 	}
 }
