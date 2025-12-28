@@ -17,13 +17,13 @@ extension ContentView {
 			Text(Category(name: "Emergency",value: "20", total: ""))
 		}
 		Button("Add Category") {
-			
+			// Category
 		}
 		Button("Delete Category") {
-			
+			// Delete last category
 		}
 		Button("Done") {
-			
+			// Save changes and move back to main screen
 		}
 	}
 }
