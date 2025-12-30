@@ -11,10 +11,11 @@ extension ContentView {
 	func buildCategories() -> some View {
 		
 		List {
-			
-			Text(Category(name: "Vacation",value: "5", total: ""))
-			Text(Category(name: "Personal",value: "10", total: ""))
-			Text(Category(name: "Emergency",value: "20", total: ""))
+			HStack {
+				Text("Vacation")
+				Text("Personal")
+				Text("20")
+			}
 		}
 		Button("Add Category") {
 			// Category
