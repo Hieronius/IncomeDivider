@@ -10,6 +10,8 @@ extension ContentView {
 	@ViewBuilder
 	func buildCategories() -> some View {
 		
+		// May be add TabBar?
+		
 		List {
 			HStack {
 				Text("Vacation")
