@@ -38,8 +38,8 @@
 			isa = PBXGroup;
 			children = (
 				DD12B6672EFA425C004B4036 /* Plan */,
-				DD12B66D2EFB9D56004B4036 /* Categories.swift */,
 				DD12B6662EFA425C004B4036 /* IncomeDividerApp.swift */,
+				DD12B66D2EFB9D56004B4036 /* Categories.swift */,
 				DD12B6652EFA425C004B4036 /* ContentView.swift */,
 				DD12B6642EFA425C004B4036 /* Assets.xcassets */,
 			);
