@@ -1,5 +1,6 @@
 import SwiftUI
 
+/// The entity to describe a typical money spending category
 struct Category: Identifiable {
 	
 	let id = UUID()
