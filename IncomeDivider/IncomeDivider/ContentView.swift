@@ -1,5 +1,28 @@
 import SwiftUI
 
+/*
+ 
+ Current Money Distribution Plan
+
+ 1. Emergency fund - 20%
+ 2. 31 500 rent
+ 3. 20 000 groceries
+ 4. 1 700 gym
+ 5. 1000 cell phone + subs
+ 6. 500 insurance
+ 7. 2,5% - MacBook
+ 8. 10% - personal fund
+ 9. 5% - healthcare
+ 10. 2,5% - therapy
+ 11. 5% - vacation
+ 12. 2,5% - development
+ 13. General fund - keep 10 000
+ 14. Leftover - emergency fund
+
+
+ Priorities: Emergency, Rent, groceries, personal,
+ */
+
 /// The entity to describe a typical money spending category
 struct Category: Identifiable {
 	
@@ -58,7 +81,7 @@ struct ContentView: View {
 			divideIncome()
 		}
 		.frame(width: 200, height: 50)
-		.background(.gray)
+		.background(.blue)
 		.foregroundStyle(.white)
 		.clipShape(.capsule)
 		
